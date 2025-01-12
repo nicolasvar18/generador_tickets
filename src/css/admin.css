@@ -1,0 +1,263 @@
+body {
+    background-color: #f4f5f9;
+}
+
+.margen_admin {
+    margin: .5rem;
+}
+
+.title_admin_boton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefeff;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #e7e7e7;
+}
+
+.tlt_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo {
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    font-size: 3.5rem;
+    padding: 0 8.5rem;
+    margin: 2rem 0 0 0;
+}
+
+.title_main {
+    color: #566a7f;
+    font-size: 1.8rem;
+}
+
+.title_second {
+    display: none;
+    color: #566a7f;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px){
+    .title_main {
+        display: none;
+    }
+
+    .title_second {
+        display: block;
+    }
+
+    .tlt_icon > a {
+        display: none;
+    }
+}
+
+.boton_home {
+    border: none;
+    outline: none;
+    background-color: #359600;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .7rem 1.5rem;
+}
+
+.content_search_buttons {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botones_functions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons_funct {
+    flex-grow: 1;
+    border: none;
+    border-right: 2px solid #fff;
+    cursor: pointer;
+    padding: .5rem 0;
+    outline: none;
+}
+
+.buttons_funct:last-child {
+    border-right: none !important;
+}
+
+.buttons_funct:active {
+    background-color: #fff;
+}
+
+.wdmin {
+    display: none;
+}
+
+.input_search {
+    width: 400px;
+    padding: .5rem 0 .5rem .5rem;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    transition: 1s;
+}
+
+.input_search:focus {
+    border: 1px solid #c6c6d6;
+    transition: 1s;
+}
+
+@media (max-width: 600px) {
+    .content_search_buttons {
+        flex-direction: column;
+    }
+    
+    .buttons_funct { 
+        width: 100%;
+    }    
+    
+    .input_search {
+        width: 98%;
+    }
+
+    .wdmax {
+        display: none;
+    }
+
+    .wdmin {
+        display: block;
+    }
+}
+
+
+/* TICKET ITEMS */
+
+.content_tickitem {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.id_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket {
+    flex-grow: 1;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #e4e4e7;
+    padding: 20px 10px;
+}
+
+.content_initials {
+    background-color: #566a7f;
+    border-radius: 100px;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 30px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initials_name {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+}
+
+.id {
+    font-weight: 400;
+    font-size: .9rem;
+    color: #566a7f;
+}
+
+hr {
+    margin: 1rem 0;
+    border-color: #c6c6d6;
+    opacity: .3;
+}
+
+.flex_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+}
+
+.title_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_text > p {
+    margin-top: .3rem;
+    font-size: .9rem;
+}
+
+.title_text > strong {
+    color: #566a7f;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.document > a {
+    text-decoration: none;
+    color: #5177fe;
+    font-size: .9rem;
+}
+
+.progress_button {
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #696cff;
+}
+
+.finished_button {
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: #359600;
+    border-radius: 10px;
+}
+
+.boton_less_more_see {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #696cff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.active {
+    background-color: #fff;
+}
+
+.doct_top {
+    margin-top: .8rem;
+}

@@ -8,6 +8,24 @@
 
 Aplicación web desarrollada en React para la gestión de tickets de soporte. Permite a los usuarios generar solicitudes y a los administradores gestionarlas eficientemente con seguimiento en tiempo real.
 
+## 🌐 Demo
+
+Puedes probar la aplicación en vivo aquí: [Demo del Generador de Tickets](https://generadorticketsdemo.netlify.app)
+
+## 🔐 Acceso y Credenciales
+
+Para probar el sistema:
+1. **Panel Admin:** 
+   - Clic en botón "Admin"
+   - Contraseña: `admin123`
+
+2. **Correos de Notificación:**
+   - Ir a [YOPmail](https://yopmail.com)
+   - Usar: `admintickets@yopmail.com`
+   - Ver las notificaciones de nuevos tickets
+
+> ⚠️ Nota: YOPmail es un servicio de correo temporal usado para demostración. En producción, configura un correo real.
+
 ## ✨ Características Principales
 
 - 🔐 Sistema de autenticación para administradores
@@ -95,20 +113,6 @@ const firebaseConfig = {
 - Asignar responsables
 - Filtrar y buscar tickets
 - Exportar datos a Excel
-
-## 🔐 Acceso Administrativo
-
-Para acceder al panel de administración:
-1. Clic en botón "Admin"
-2. Ingresar contraseña: `admin123`
-
-### 📧 Correo de Administración
-Para ver los correos de notificación de tickets:
-1. Ir a [YOPmail](https://yopmail.com)
-2. Ingresar: `admintickets@yopmail.com`
-3. Los correos de nuevos tickets aparecerán en la bandeja de entrada
-
-> ⚠️ Nota: YOPmail es un servicio de correo temporal usado para demostración. En producción, configura un correo real.
 
 ## 📧 Plantillas de Correo
 
